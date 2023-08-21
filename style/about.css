@@ -1,0 +1,12 @@
+section.about {
+  height: 720px;
+}
+
+section.about .right {
+  background-color: #1b5b31;
+}
+
+section.about button {
+  width: 194px;
+  height: 50px;
+}

@@ -1,0 +1,19 @@
+footer {
+  height: 500px;
+  background-color: #111;
+}
+
+footer .all {
+  width: 1040px;
+}
+
+.contact_btn {
+  width: 208px;
+  height: 50px;
+  background-color: #1b5b31;
+}
+
+footer .social,
+.copyright {
+  font-size: 0.9rem;
+}

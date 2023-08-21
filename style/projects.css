@@ -1,0 +1,11 @@
+section.our_projects {
+  background-color: #dcc1ab;
+}
+
+.grid-item {
+  width: 30%;
+}
+
+.grid-item img {
+  width: 100%;
+}
