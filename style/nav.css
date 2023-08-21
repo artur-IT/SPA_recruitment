@@ -3,22 +3,18 @@
   margin: 0 auto;
 }
 
-.menu li a {
-  font-size: 0.9rem;
+ul.show > li:hover {
+  color: #fff;
+  background-color: #1b5b31;
+  transition: 0.5s;
+}
+
+ul.offer {
+  margin-left: -15px;
 }
 
 ul {
-  background-color: #fff;
   list-style: none;
-  text-align: left;
-  margin: 0 -15px;
-  padding: 10px 15px;
-}
-
-ul.offer li {
-  width: auto;
-  margin: 0 -10px;
-  padding: 5px 20px;
 }
 
 .menu input {
@@ -27,7 +23,5 @@ ul.offer li {
 }
 
 .search_icon {
-  margin: 0;
-  padding: 0;
   width: 20px;
 }

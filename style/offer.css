@@ -1,10 +1,14 @@
+body {
+  --text_color: #1b5b31;
+}
+
 .our_offer {
   height: 840px;
   background-color: #f5f0ec;
 }
 
 .offer > span {
-  color: #1b5b31;
+  color: var(--text_color);
 }
 
 .tile {
@@ -13,7 +17,7 @@
 
 .tile:hover {
   border: 1px solid #dcc1ab;
-  box-shadow: 6px 6px 4px 4px;
+  box-shadow: 4px 4px 2px 2px;
   transition: 0.5s;
 }
 
@@ -22,13 +26,12 @@ h3 {
 }
 
 .tile a {
-  color: #1b5b31;
+  color: var(--text_color);
 }
 
 .tile a img {
   width: 15px;
-  color: #1b5b31;
-  /* opacity: 0.5; */
+  color: var(--text_color);
 }
 
 .tile img {

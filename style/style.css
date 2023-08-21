@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   height: auto;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* INSTAGRAM - start */
@@ -32,9 +33,10 @@ div.green_left p {
 }
 
 div.green_right button {
-  font-size: 0.9rem;
-  min-width: 124px;
-  min-height: 46px;
+  min-width: 100px;
+  min-height: 40px;
+  max-width: 124px;
+  max-height: 46px;
   color: #1b5b31;
 }
 /* INSTAGRAM - end */
