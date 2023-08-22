@@ -1,16 +1,9 @@
-section.intro {
-  height: 737px;
-  /* box-sizing: content-box; */
-  /* overflow: hidden; */
-}
-
 div.left {
   background-color: #dcc1ab;
 }
 
 header {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
 }
 
 p {
