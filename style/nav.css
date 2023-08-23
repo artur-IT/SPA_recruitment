@@ -4,7 +4,6 @@
 }
 
 ul.show > li:hover {
-  /* background-color: #1b5b31; */
   transition: 0.5s;
 }
 
@@ -12,6 +11,28 @@ ul.show > li a:hover {
   color: #fff;
   background-color: #1b5b31;
   transition: 0.5s;
+}
+
+div.navbar-collapse.show ul {
+  /* width: 50%; */
+  text-align: right;
+  margin-top: 3px;
+  margin-left: 0px;
+  margin-right: -45px;
+  padding-left: 20px;
+}
+
+/* pod-menu z Oferty */
+div.navbar-collapse.show ul li ul.show {
+  position: absolute;
+  top: 30px;
+  left: -140px;
+  text-align: right;
+}
+
+div.navbar-collapse.show ul li ul.show li a {
+  margin: 3px 0px 0px 0px;
+  padding-right: 40px;
 }
 
 ul.offer {
