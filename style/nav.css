@@ -4,6 +4,11 @@
 }
 
 ul.show > li:hover {
+  /* background-color: #1b5b31; */
+  transition: 0.5s;
+}
+
+ul.show > li a:hover {
   color: #fff;
   background-color: #1b5b31;
   transition: 0.5s;
