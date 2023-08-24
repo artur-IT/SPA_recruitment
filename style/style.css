@@ -4,16 +4,8 @@
   box-sizing: content-box;
 }
 
-body {
-  background-color: #fff;
-  font-family: "Inter", sans-serif;
-}
-
 .wrap {
-  max-width: 1440px;
-  margin: 0 auto;
   height: auto;
-  background-color: #fff;
 }
 
 /* INSTAGRAM - start */

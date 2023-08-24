@@ -32,7 +32,8 @@ div.navbar-collapse.show ul li ul.show {
 
 div.navbar-collapse.show ul li ul.show li a {
   margin: 3px 0px 0px 0px;
-  padding-right: 40px;
+  padding: 0px;
+  /* padding-right: 40px; */
 }
 
 ul.offer {
