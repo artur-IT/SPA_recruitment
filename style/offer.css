@@ -3,7 +3,6 @@ body {
 }
 
 .our_offer {
-  height: 840px;
   background-color: #f5f0ec;
 }
 
@@ -12,6 +11,8 @@ body {
 }
 
 .tile {
+  min-width: 260px;
+  max-width: 300px;
   font-size: 0.8rem;
 }
 
@@ -32,8 +33,4 @@ h3 {
 .tile a img {
   width: 15px;
   color: var(--text_color);
-}
-
-.tile img {
-  width: 50px;
 }

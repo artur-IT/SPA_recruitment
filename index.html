@@ -76,10 +76,10 @@
 
       <!-- INTRO -->
       <section class="intro">
-        <div class="w-100 m-0 d-flex flex-column flex-md-row">
-          <div class="left m-0 p-5 d-flex flex-column justify-content-center">
-            <header class="lh-1 mb-5 p-0 display-3">Nowoczesna aranżacja Twojego ogrodu</header>
-            <p class="fs-6 mb-5">
+        <div class="w-100 m-0 d-flex flex-column flex-lg-row">
+          <div class="left m-0 p-5 d-flex flex-column justify-content-center" style="background-color: #dcc1ab">
+            <header class="lh-1 mb-5 p-0 display-3" style="font-family: Montserrat, sans-serif">Nowoczesna aranżacja Twojego ogrodu</header>
+            <p class="fs-6 mb-5" style="font-family: Inter, sans-serif">
               Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z
               indywidualnym podejściem do każdego projektu.
             </p>
@@ -126,7 +126,7 @@
       </section>
 
       <!-- OFERTA -->
-      <section class="our_offer d-flex justify-content-center">
+      <section class="our_offer h-auto d-flex justify-content-center">
         <div class="w-100 d-flex justify-content-center row">
           <div class="w-50 mt-5 p-0 offer d-flex row justify-content-start container-sm">
             <span class="w-50 p-0">Oferta</span>
@@ -138,9 +138,9 @@
             </p>
           </div>
 
-          <div class="tiles w-75 d-flex align-items-center justify-content-center">
-            <div class="tile w-25 mx-4 px-4 pb-4 bg-white rounded-5">
-              <img src="./icons/pencil-solid.svg" class="pt-4" alt="icon" />
+          <div class="tiles w-100 mt-5 mb-5 p-0 d-flex flex-wrap flex-column flex-md-row align-items-center justify-content-center">
+            <div class="tile w-25 mb-5 mx-4 px-4 pb-4 bg-white rounded-5">
+              <img src="./icons/pencil-solid.svg" class="pt-4" style="width: 50px" alt="icon" />
               <h3 class="pt-4">Projekty</h3>
               <p class="pt-2 pb-5">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
               <div class="tile_link border-bottom border-success pb-1 w-75">
@@ -150,8 +150,8 @@
               </div>
             </div>
 
-            <div class="tile w-25 mx-4 px-4 pb-4 bg-white rounded-5">
-              <img src="./icons/eye-solid.svg" class="pt-4" alt="icon" />
+            <div class="tile w-25 mb-5 mx-4 px-4 pb-4 bg-white rounded-5">
+              <img src="./icons/eye-solid.svg" class="pt-4" style="width: 50px" alt="icon" />
               <h3 class="pt-4">Wizualizacje</h3>
               <p class="pt-2 pb-5">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
               <div class="tile_link border-bottom border-success pb-1 w-75">
@@ -161,8 +161,8 @@
               </div>
             </div>
 
-            <div class="tile w-25 mx-4 px-4 pb-4 bg-white rounded-5">
-              <img src="./icons/check-solid.svg" class="pt-4" alt="icon" />
+            <div class="tile w-25 mb-5 mx-4 px-4 pb-4 bg-white rounded-5">
+              <img src="./icons/check-solid.svg" class="pt-4" style="width: 50px" alt="icon" />
               <h3 class="pt-4">Realizacje</h3>
               <p class="pt-2 pb-5">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.</p>
               <div class="tile_link border-bottom border-success pb-1 w-75">
@@ -248,30 +248,34 @@
       </section>
 
       <!-- FOOTER  -->
-      <footer class="w-100 m-0 text-white d-flex row justify-content-center align-items-center">
-        <div class="all w-75 mt-5 d-flex row align-items-center justify-content-center container-md">
-          <div class="slogan mx-4 d-flex justify-content-between">
-            <span class="navbar-brand fs-5" href="#"><strong>giard</strong>design</span>
-            <div class="d-flex">
-              <span class="pe-4 text-end">Daj znać, co możemy dla Ciebie zrobić!</span>
-              <button class="contact_btn rounded-5 text-white border-0">Skontaktuj się z nami</button>
+      <footer class="w-100 m-0 text-white d-flex justify-content-center align-items-center">
+        <div class="all w-75 mx-0 d-flex row align-items-center justify-content-center">
+          <div class="slogan mx-0 mt-5 d-flex justify-content-between flex-column flex-lg-row">
+            <span class="navbar-brand fs-5 d-flex align-self-center mb-3 mb-lg-0" href="#"><strong>giard</strong>design</span>
+            <div class="d-flex flex-column align-items-center flex-lg-row">
+              <span class="pe-4 text-end d-flex align-self-center mb-3 mb-lg-0">Daj znać, co możemy dla Ciebie zrobić!</span>
+              <button class="contact_btn rounded-5 text-white border-0 mb-1">Skontaktuj się z nami</button>
             </div>
           </div>
 
-          <div class="social my-5 pt-5 px-0 border-top border-white d-flex justify-content-between">
-            <div class="social_contact">
-              <a class="pe-5 text-white text-decoration-none" href="#">Kontakt</a>
-              <a class="pe-5 text-white text-decoration-none" href="#">Instagram</a>
-              <a class="pe-5 text-white text-decoration-none" href="#">Facebook</a>
-              <a class="pe-5 text-white text-decoration-none" href="#">LinkedIn</a>
+          <div class="social my-5 pt-5 px-0 border-top border-white d-flex flex-column flex-lg-row justify-content-lg-between">
+            <div class="social_contact pb-3 pb-lg-0 d-flex justify-content-center">
+              <a class="pe-4 text-white text-decoration-none" href="#">Kontakt</a>
+              <a class="pe-4 text-white text-decoration-none" href="#">Instagram</a>
+              <a class="pe-4 text-white text-decoration-none" href="#">Facebook</a>
+              <a class="text-white text-decoration-none" href="#">LinkedIn</a>
             </div>
 
-            <div class="text-end"><span class="pe-4">000-000-000</span><span>giarddesign@kontakt.pl</span></div>
+            <div class="text-end d-flex justify-content-center">
+              <span class="pe-4">000-000-000</span><span>giarddesign@kontakt.pl</span>
+            </div>
           </div>
 
-          <div class="copyright pt-5 px-0 d-flex justify-content-between">
+          <div class="copyright mb-5 mt-2 px-0 d-flex justify-content-between align-items-center flex-column flex-md-row">
             <span>Prawa zastrzeżone &copy 2022</span>
-            <div class="mb-5"><span class="pe-4">made by</span><img src="adRespect_logo.png" alt="logo" /></div>
+            <div class="d-flex align-items-center justify-content-center">
+              <span>made by</span><img src="adRespect_logo.png" alt="logo" />
+            </div>
           </div>
         </div>
       </footer>

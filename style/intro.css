@@ -1,16 +1,5 @@
-div.left {
-  background-color: #dcc1ab;
-}
-
-header {
-  font-family: "Montserrat", sans-serif;
-}
-
-p {
-  font-family: "Inter", sans-serif;
-}
-
-button.contact {
+button.contact,
+button.our_projects {
   width: 210px;
   height: 50px;
   font-size: 0.8rem;
@@ -19,12 +8,7 @@ button.contact {
 }
 
 button.our_projects {
-  width: 210px;
-  height: 50px;
-  font-size: 0.8rem;
-  border: 1px solid #1b5b31;
   background-color: transparent;
-  color: #1b5b31;
 }
 
 div.right .carousel-control-prev {
